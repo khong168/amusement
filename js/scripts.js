@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  var age = parseInt(prompt("How old are you?"));
+  var height = parseInt(prompt("How tall are you in inches?"));
 
-  if (age>=18) {
-    $('#voting').show();
+  if (height>=56) {
+    $('#over56').show();
   } else {
-    $('#under-18').show();
-  }
+    $('#under56').show();
+  };
 });

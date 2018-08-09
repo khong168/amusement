@@ -1,3 +1,7 @@
-#voting, #under-18 {
+#over56, #under56 {
   display: none;
+}
+
+.highlight {
+  background-color: yellow;
 }
